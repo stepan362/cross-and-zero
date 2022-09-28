@@ -22,7 +22,7 @@ def take_input(player_token):
    valid = False
    while not valid:
 
-      coordinates_board = (input("Куда поставим " + player_token+"? "+ "введите координаты по горизонтали и вертикали"))
+      coordinates_board = (input("Куда поставим " + player_token+"? "+ "введите координаты по вертикали и горизонтали"))
       if coordinates_board == "00" or  coordinates_board == "01" or coordinates_board == "02" or coordinates_board == "10" or coordinates_board == "11" or coordinates_board == "12" or coordinates_board == "20" or coordinates_board== "21" or coordinates_board == "22":
           player_answer = coordinates.index(coordinates_board)
 
