@@ -27,7 +27,7 @@ def take_input(player_token):
           player_answer = coordinates.index(coordinates_board)
 
       else:
-         print("Некорректный ввод. Вы уверены, что ввели число?")
+         print("Некорректный ввод. Вы уверены, что ввели координаты правильно?")
          continue
       if player_answer >= 0 and player_answer <= 9:
          if(str(board[player_answer-1]) not in "XO"):
